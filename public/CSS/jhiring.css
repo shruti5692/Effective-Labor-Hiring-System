@@ -1,0 +1,173 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    header {
+      background-color: #333333;
+      padding: 20px;
+      color: #ffffff;
+    }
+    
+    h1 {
+      font-size: 2.1em;
+      margin: 10vh auto;
+      text-align: center;
+    }
+    
+    .search-form {
+      display: inline-block;
+      margin: 10px 0;
+    }
+    
+    input[type="text"] {
+      padding: 21px 10px;
+      font-size: 16px;
+      border-radius: 30px;
+      border: 1px solid #8295fe;
+      width:41vw;
+      box-shadow: #4d68ff27 15px 0px 23px, #4d68ff27 -15px 15px 23px;
+    }
+    form{
+      /* margin-left:30vw; */
+      position: relative;
+      right:23vh;
+    }
+    
+  .search {
+      bottom: 7.5vh;
+      left: 34.5vw;
+      background-color: #007bff;
+      color: #ffffff;
+      padding: 2.1vh 2vw;
+      border: none;
+      cursor: pointer;
+      border-radius: 30px;
+      font-size: 16px;
+      position: relative;
+  
+    }
+    
+    .search:hover {
+      background-color: #0056b3;
+    }
+    .image{
+      height: 32vh;
+      width: 25vw;
+      position: relative;
+      background-image: url(../IMAGES/job-search.jpg);
+      background-size: cover;
+      right: 15vw;
+      bottom: 8vh;
+  }
+    
+    .containerone{
+      display: flex;
+      justify-content: center;
+    }
+    .profile {
+      display: inline-block;
+      margin-left: 20px;
+      vertical-align: middle;
+    }
+    
+    .profile img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  
+    
+    main {
+      padding: 20px;
+      padding-top: 0;
+    }
+    
+    .card {
+      background-color: #ffffff;
+      box-shadow: rgb(38, 57, 77) -10px -10px 40px -15px;
+      padding: 20px;
+      margin:10vh auto;
+      border: 1px solid #4D67FF;
+      border-radius: 5px;
+      display: flex;
+    }
+    
+    .card img.labor-image {
+      width: 200px;
+      height: auto;
+      border-radius: 4px;
+      margin-right: 20px;
+    }
+    
+    .card-content {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .card-content .labor-info {
+      flex: 1;
+    }
+    
+    .card-content .labor-info h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    
+    .card-content .labor-info p {
+      color: #888888;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    
+    .hire-section {
+      display: flex;
+      align-items: center;
+    }
+    
+    .ratings {
+      margin-right: 25px;
+    }
+    
+    .ratings .rating {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+    .ratings .stars {
+      font-size: 16px;
+    }
+    
+    .hire-section .hire-button {
+      background-color: #007bff;
+      color: #ffffff;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    
+    .hire-button:hover {
+      background-color:  #ffffff;
+      border: 1px solid #4D67FF;
+      color:#4d67ff;
+      box-shadow: 0 0 10px #4D67FF;
+      transform: translateX(35);
+    }
+    .checkmark-icon {
+      color: green;
+  }
+  
+   

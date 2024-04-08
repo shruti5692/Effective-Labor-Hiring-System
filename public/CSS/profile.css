@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+    
+    h2 {
+      text-align: center;
+      margin-top: 1em;
+      font-size: 2rem;
+      background-color: #4d67ff;
+    }
+    
+    .profile-details {
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+    }
+    
+    button {
+      display: block;
+      margin: 0 auto;
+    }
+    
+    .profile{
+      max-width: 539px;
+      padding: 5%;
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px -15px 25px, rgba(0, 0, 0, 0.23) -15px 20px 30px;
+      height: 51vh;
+      border:2px solid #4d67ff;
+      /* display: inline-block; */
+      position: relative;
+      left: 60%;
+  bottom: 75%;
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+    }
+    .profile:hover{
+    flex-grow: 3;
+    }
+    
+  .image{
+    height: 61vh;
+    width: 30vw;
+    background-color: blue;
+   
+    position: relative;
+    left: 6%;
+    top: 3%;
+    background-image: url('../IMAGES/profile.jpg');
+    background-size: cover;
+  
+  
+    } 
+    .main{
+     height: 80vh;
+     width:60vw;
+     margin:10vh 10vw;
+     border: 2px solid #4d67ff;
+     border-radius: 15px;
+     box-shadow: rgba(0, 0, 0, 0.19) 0px -10px 25px, rgba(0, 0, 0, 0.23) -10px 15px 30px;
+    }
+    p{
+      margin-top: 1.1em;
+    }
+  
+   .logout-button{
+    width: 50%;
+    padding: 10px;
+    background-color:#4d67ff;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 6px;
+   }
+   .logout-button:hover{
+    background-color:  #ffffff;
+    border: 1px solid #4D67FF;
+    color:#4d67ff;
+    box-shadow: 0 0 10px #4D67FF;
+    transform: translateX(35);
+   }

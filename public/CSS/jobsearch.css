@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    background-color: #02051b;
+    height: 40vh;
+    width:100%;
+  margin: 0;
+    padding:3vh auto;
+    padding-bottom: 10vh;
+    background: rgb(159,173,255);
+  background: linear-gradient(90deg, rgba(159,173,255,1) 16%, rgba(77,103,255,1) 45%, rgba(42,58,154,1) 100%);
+   
+  }
+  
+  h1{
+    text-align: center;
+   font-size: 2em;
+   position: relative;
+   top:5vh;
+   color:white;
+  }
+  
+  /* .form{
+    margin: 10vh;
+    display: inline-block;
+  } */
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form input[type="text"] {
+   
+    width: 51%;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 38px;
+    margin-left: 20vw;
+    margin-top: 10vh;
+      
+  
+  }
+  
+  
+  
+  .form button {
+    padding: 16px 41px;
+    background-color: #4D67FF;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 49px;
+    margin: 3vh 40vw;
+    position: relative;
+    left: 24%;
+    bottom: 10.3vh;
+    
+  }
+  
+    .job-item {
+      background-color: #ffffff;
+      box-shadow: rgb(38, 57, 77) 20px 20px 30px -10px;
+      padding: 10px;
+     
+      display: flex;
+      width: 40vw;
+      margin: 16px auto;
+      height: 50vh;
+      border-radius: 15px;
+  }
+  
+  
+  
+  .card-content {
+   
+    flex: 1;
+    
+    justify-content: space-between;
+    align-items: center;
+    height:85%;
+  }
+  .labor-info{
+    height: 85%;
+  }
+  
+  .job-list {
+  
+    
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      padding: 3vh;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;}
+  
+  
+  .card-content {
+      
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  
+  border-radius: 4px;
+  height: 30vh;
+  width: 40vw;
+  margin: 4vh 3vw;
+  box-shadow: 0 0 10px #8393f1;
+  }
+  .job-list li:hover{
+  flex-grow: 2;
+  
+  }
+  .apply-button{
+  
+    width: 39%;
+    padding: 10px;
+    background-color: #4d67ff;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 16% 29%;
+  }
+  .apply-button:hover {
+    
+      background-color:  #ffffff;
+      border: 1px solid #4D67FF;
+      color:#4d67ff;
+      box-shadow: 0 0 10px #4D67FF;
+      transform: translateX(35);
+     
+  }
+  h3{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  p{
+    margin:10px 0;
+  
+  }

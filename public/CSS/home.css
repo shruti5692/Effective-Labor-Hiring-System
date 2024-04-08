@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  .box1{
+   
+    height:80vh;
+    width:30vw;
+   padding-left: 5vw;
+    
+  }
+  .box2{
+    
+  
+    height: 90vh;
+    width:30vw;
+    padding-right: 12vw;
+    
+   
+  }
+  h1{
+    margin-top: 5vh;
+    text-align: center;
+  }
+  .transbox{
+    background-color: #4d67ff;
+    color: white;
+    /* box-sizing: content-box; */
+    height:50%;
+    width:94%;
+    margin:2.6em auto;
+    /* opacity: 0.5; */
+    box-shadow: rgb(38, 57, 77) 20px 20px 30px -10px;
+    border-radius: 2em;
+    margin-left: 0;
+    padding: 35px 25px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+  }
+  .image1{
+    height:40vh;
+    width:20vw;
+    position:relative;
+    background-image: url('../IMAGES/practice.jpg');
+    background-size: cover;
+    border-radius: 30px;
+    top:40vh;
+    left:4vw;
+    border: 7px solid #4d68ff5b;
+    box-shadow:#19191d 10px 10px 30px -10px;
+  }
+  .image1:hover{
+    border: 4px solid #040c36;
+    transform: translateY(-2em);
+    box-shadow: 0 0 20px #0324e0;
+  }
+  .image2{
+    height:55vh;
+    width:25vw;
+    position:relative;
+    background-image: url('../IMAGES/practice2.jpg');
+    background-size: cover;
+    bottom: 34vh;
+    left: 11vw;
+    border-radius: 40px;
+    box-shadow: #3e3f43 10px 10px 30px -10px;
+  }
+  .image2:hover{
+    border: 4px solid #040c36;
+    transform: translateY(-2em);
+    box-shadow: 0 0 20px #0324e0;
+  }
+  /* .transbox:hover{
+    background-color: #040c36;
+    color:white;
+    transform: translateY(-2em);
+  } */
+  button{
+    width: 60%;
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    color: hsl(0, 0%, 0%);
+   
+    border-radius: 6px;
+  
+    text-decoration: none;
+    position: relative; 
+   top:6vh;
+    left:5vw;
+  }
+  button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+  }
+  button a{
+   text-decoration: none;
+  }
+  /* p{
+    text-align: center;
+  } */

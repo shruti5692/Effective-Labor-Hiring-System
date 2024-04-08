@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Search</title>
+  <link rel="stylesheet" href="../CSS/jobsearch.css">
+  <link rel="stylesheet" href="../CSS/navbar.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+  <script src="../JS/jobSearch.js"></script>
+</head>
+<body onload="JobSearchLoaded()">
+  <div class="navbar">
+    <span class="website-name">LabourLink</span>
+    <ul>
+      <li><a href="/lhome">Home</a></li>
+        <li><a href="/jobsearch">Job Search</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/login" class="login">Login</a></li>
+       
+    </ul>
+  </div>
+  <div class="container">
+    <h1>Search your work</h1>
+    <form>
+      <div class="form">
+        
+        <input type="text" id="search-input" name="search-input" placeholder="Enter keywords">
+      </div>
+      <div class="form">
+        <button type="submit">Search</button>
+      </div>
+    </form>
+ 
+</div>
+    <div id="jobList" class="job-list">
+      
+        
+      
+        
+      <!-- Add more job listings here -->
+    </ul>
+  </div>
+</body>
+</html>

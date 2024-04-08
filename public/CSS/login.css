@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+
+}
+
+.form1 {
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 24vw;
+    height: 50vh;
+    margin-top: 7vh;
+    margin-left: 2vw;
+    padding: 2%;
+    font-size: 1rem;
+    box-shadow: 0 0 10px #8393f1;
+    border-radius: 10px;
+    padding: 7%;
+    padding-top: 4%;
+
+
+}
+
+#submit {
+    margin: 20px;
+}
+
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #4D67FF;
+    padding: 10px 10px;
+    margin: 50px 0;
+    width: 100%;
+    border:1px solid #4D67FF;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+
+    height: 90vh;
+    width: 78vw;
+    margin: 5% 10%;
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.box {
+    background-color: white;
+    height: 89vh;
+    width: 37vw;
+    box-shadow: 0 0 10px #8393f1;
+    margin-top: 3vh;
+}
+
+
+
+.image {
+    height: 50%;
+
+    margin: 10px;
+    background-color: #4D67FF;
+    box-sizing: content-box;
+    background-image: url('../IMAGES/login.jpg');
+    background-size: cover;
+}
+
+.content {
+    margin: 10px;
+    box-sizing: content-box;
+    margin: auto 10%;
+}
+
+.content ul {
+    list-style-type: none;
+    /* Remove default list style */
+    padding: 2px;
+    margin: 1px;
+}
+
+.content ul li {
+    position: relative;
+    padding-left: 20px;
+    /* Adjust spacing for the image */
+    margin: 1rem;
+}
+
+.content ul li::before {
+    content: "";
+    /* Generate the list style image */
+    position: absolute;
+    top: 5px;
+    /* Adjust vertical positioning */
+    left: 0;
+    width: 20px;
+    /* Set the width of the image */
+    height: 20px;
+    /* Set the height of the image */
+    background-image: url("../IMAGES/check.webp");
+    /* Specify the image URL */
+    background-size: cover;
+    /* Adjust the image size */
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 3%;
+
+}
+
+button:hover {
+    background-color: #ffffff;
+    border: 1px solid #4D67FF;
+    color: #4d67ff;
+    box-shadow: 0 0 10px #4D67FF;
+}

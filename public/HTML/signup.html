@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Signup Page</title>
+  <link rel="stylesheet" href="../CSS/navbar.css">
+  <link rel="stylesheet" href="../CSS/signup.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <script src="../JS/signup.js"></script>
+    
+
+
+</head>
+<div class="navbar">
+  <span class="website-name">LabourLink</span>
+  <ul>
+
+    <li><a href="/login" class="login">Login</a></li>
+    <li><a href="/signup">Signup</a></li>
+  </ul>
+</div>
+
+<body>
+  <div class="container">
+    <div class="box1">
+      <div class="image"></div>
+      <div class="content">
+        <h4>On registering </h4>
+        <ul>
+          <li>No job hunting</li>
+          <li>Chances of finding suitable work</li>
+          <li>Facillates communication and coordination</li>
+        </ul>
+      </div>
+    </div>
+    <div class="box2">
+      <h2>Signup</h2>
+      <form id="signupForm" >
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-Name" name="first-name" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-Name" name="last-name" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">PhoneNumber</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <textarea  id="adress" cols="75" rows="3" placeholder="adress with pincode"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="userType">User Type:</label>
+          <select id="userType" onchange="toggleOptions()">
+            <option value="labour" onchange="toggleOptions()">Labour</option>
+            <option value="jobProvider">Job Provider</option>
+          </select><br>
+
+          <div class="form-group">
+            <div id="workstationOption" style="display: none;">
+              <input type="text" id="workstation" placeholder="Workstation">
+              <textarea id="workDescription" placeholder="Work Description" required></textarea><br>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div id="laborOption" style="display: block;">
+              <textarea id="skillDescription" placeholder="Skill Description" required></textarea><br>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+
+        
+      </form>
+      
+        <button class="submitButton" onclick="signUpSubmitClicked()">Signup</button>
+     
+    </div>
+
+  </div>
+  </div>
+  
+</body>
+
+</html>

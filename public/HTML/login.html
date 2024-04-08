@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+    
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+   
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <span class="website-name">LabourLink</span>
+        <ul>
+          <li><a href="/signup" class="login">Signup</a></li>
+        </ul>
+      
+    </div>
+
+    
+    <div class="container">
+        
+    <div class="form1">
+        <h4>Login here!</h4>
+        <form id="LoginForm123">
+
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="mobileNo" name="mobileNo"><br>
+
+            <label>Password</label><br>
+            <input type="password" id="passw" name="passw"><br>
+            
+        </form>
+        <button class="loginButton" onclick="LoginSubmitClicked()" >Login</button>
+        <p>Don't have an account?</p>
+        <a href="/signup">Sign up</a>
+    </div>
+    <div class="box">
+
+        <div class="image"></div> 
+        <div class="content">
+            <ul>
+                <li>Easy access to work opportunities:</li>
+                <li>Efficient labor allocation</li>
+                <li>Increased job opportunities</li>
+                <li>Improved communication and transparency</li>
+                <li>Trackable work history</li>
+                <li>Feedback and ratings</li>
+                <li>Opportunities for growth and development:</li>
+              </ul>
+        </div>
+    
+        </div>
+    
+    
+    </div>
+</body>
+    <script src="../JS/login.js"></script>
+
+</html>
